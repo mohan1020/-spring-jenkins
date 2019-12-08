@@ -14,6 +14,7 @@ class SpringJenkinsApplicationTests {
 	private static Logger logger=LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	@Test
 	void contextLoads() {
+		logger.info("second testing purpose");
 		logger.info("test case is excuted");
 		assertThat(true);
 	}
